@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.nanvariancepn;
+})();
 })();
 </script>
 ```
@@ -216,6 +218,7 @@ var v = nanvariancepn.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanvariancepn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -229,6 +232,7 @@ console.log( x );
 var v = nanvariancepn( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -351,15 +355,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats-base-dnanvariancepn/tree/umd
+[@stdlib/stats/base/dnanvariancepn]: https://github.com/stdlib-js/stats-base-dnanvariancepn/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanstdevpn]: https://github.com/stdlib-js/stats-base-nanstdevpn/tree/umd
+[@stdlib/stats/base/nanstdevpn]: https://github.com/stdlib-js/stats-base-nanstdevpn/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats-base-nanvariance/tree/umd
+[@stdlib/stats/base/nanvariance]: https://github.com/stdlib-js/stats-base-nanvariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanvariancepn]: https://github.com/stdlib-js/stats-base-snanvariancepn/tree/umd
+[@stdlib/stats/base/snanvariancepn]: https://github.com/stdlib-js/stats-base-snanvariancepn/tree/umd/tree/umd
 
-[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn/tree/umd
+[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
